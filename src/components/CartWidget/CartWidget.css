@@ -1,0 +1,7 @@
+.a:hover{
+    transition: 1s;
+    max-zoom: 5;
+    filter: drop-shadow(0 0 1em #ffffffaa);
+    color: brown;
+    transform: scale(2)
+}

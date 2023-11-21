@@ -1,0 +1,32 @@
+.CardItem {
+    border: 5px solid #064585;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.6s ease-in-out; /* Agrega una transición suave al agrandar */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: rgb(3, 11, 36);
+    font-family: 'Audiowide', sans-serif;
+}
+
+.CardItem:hover {
+    transform: scale(1.1); /* Agrandar al pasar el mouse */
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra suave al pasar el mouse */
+}
+
+/* Estilos para el texto dentro de la tarjeta de producto */
+.CardItem .ItemHeader {
+    font-family: 'Audiowide', sans-serif;
+    color: #ffffff; /* Color del texto */
+    margin-bottom: 8px;
+    font-weight: bold; /* Opcional: Peso de la fuente en negrita */
+}
+
+.CardItem .info {
+    font-family: 'Audiowide', sans-serif;
+    color: #ff8282; /* Color del texto */
+    margin-bottom: 12px;
+    font-size: 14px; /* Opcional: Tamaño de la fuente */
+}
+
+/* Otros estilos según sea necesario */

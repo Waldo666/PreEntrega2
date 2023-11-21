@@ -1,0 +1,20 @@
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos para las imágenes */
+.ListGroup img {
+    width: 200px; /* El ancho que desees para las imágenes */
+    height: 200px; /* La altura que desees para las imágenes */
+    object-fit: cover; /* Para asegurar que la imagen mantenga sus proporciones */
+}
+
+/* Otros estilos para la tarjeta de producto (si es necesario) */
+.ListGroup .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}

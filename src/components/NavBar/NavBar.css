@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2952aa;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  nav .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav img {
+    max-width: 120px; 
+    margin-right: 10px; 
+    
+  }
+  
+  nav h3 {
+    margin: 0;
+  }
+  
+  nav div {
+    display: flex;
+    flex: 1; 
+    justify-content: center; 
+  }
+  
+  nav .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav button {
+    margin-right: 10px; 
+  }
+  nav .cart-widget {
+    margin-left: auto; 
+  }
+  .categories {
+    border: 5px solid rgb(3, 11, 36);
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.6s ease-in-out; /* Agrega una transición suave al agrandar */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #053361;
+    font-family: 'Audiowide', sans-serif;
+    font-size: x-large
+    size
+    ;
+  }
+  .categories:hover{
+    transform: scale(1.1); /* Agrandar al pasar el mouse */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Sombra suave al pasar el mouse */
+  };
